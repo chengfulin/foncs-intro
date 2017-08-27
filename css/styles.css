@@ -6,7 +6,8 @@ a {
     text-decoration: none;
 }
 
-a, .cursor-pointer {
+a,
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -79,6 +80,11 @@ section#about {
     height: auto;
 }
 
+.feature-card {
+    text-align: center;
+}
+
+
 /* section#features_1 {
     background-color: rgb(255, 165, 102);
     background: -webkit-linear-gradient(30deg, rgb(255, 165, 102), #FDD43F);
@@ -103,5 +109,5 @@ section#features_1 #features_1_content {
 }
 
 section#features_1 #features_1_content #features_1_content_text {
-    padding-top: 10vh;
+    padding-top: 20vh;
 }

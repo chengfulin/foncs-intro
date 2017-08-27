@@ -7,8 +7,6 @@ function setupHomeSection() {
 
     var moreBtn = document.querySelector('#button_more');
     var downBtn = document.querySelector('#home_down_link');
-    moreBtn && moreBtn.addEventListener('click', onClickHomeMoreBtn());
-    downBtn && downBtn.addEventListener('click', onClickHomeDownBtn());
 }
 
 function onClickHomeMoreBtn() {
