@@ -1,0 +1,107 @@
+body {
+    font-family: 'Kalam', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .cursor-pointer {
+    cursor: pointer;
+}
+
+.header,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poiret One', cursive;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/bg.jpg');
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.vertical-middle {
+    margin: 0 auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.outscreen {
+    right: 1000vw;
+}
+
+/** HOME section **/
+/* section#home {
+    background-color: rgb(248, 147, 75);
+    background: -webkit-linear-gradient(30deg, rgb(248, 147, 75), #FACD2A);
+    background: -o-linear-gradient(30deg, rgb(248, 147, 75), #FACD2A);
+    background: -moz-linear-gradient(30deg, rgb(248, 147, 75), #FACD2A);
+    background: linear-gradient(30deg, rgb(248, 147, 75), #FACD2A);
+} */
+
+#logo {
+    font-family: 'Baumans', cursive;
+    font-size: 72px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+img#home_image {
+    position: absolute;
+}
+
+/** ABOUT section **/
+section#about {
+    background-color: rgba(210, 210, 210, 0.6);
+    background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(210, 210, 210, 0.3));
+    background: -o-linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(210, 210, 210, 0.3));
+    background: -moz-linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(210, 210, 210, 0.3));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(210, 210, 210, 0.3));
+
+    min-height: 50vh;
+    height: auto;
+}
+
+/* section#features_1 {
+    background-color: rgb(255, 165, 102);
+    background: -webkit-linear-gradient(30deg, rgb(255, 165, 102), #FDD43F);
+    background: -o-linear-gradient(30deg, rgb(255, 165, 102), #FDD43F);
+    background: -moz-linear-gradient(30deg, rgb(255, 165, 102), #FDD43F);
+    background: linear-gradient(30deg, rgb(255, 165, 102), #FDD43F);
+} */
+
+section#features_1 img#features1a_image {
+    z-index: 20;
+    top: 10vh;
+    position: relative;
+}
+
+section#features_1 img#features1b_image {
+    z-index: 10;
+    position: absolute;
+}
+
+section#features_1 #features_1_content {
+    padding-top: 10vh;
+}
+
+section#features_1 #features_1_content #features_1_content_text {
+    padding-top: 10vh;
+}

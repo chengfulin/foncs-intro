@@ -1,0 +1,84 @@
+.vh100 {
+    height: 100vh;
+}
+
+.vh50 {
+    height: 50vh;
+}
+
+.vh-30 {
+    height: 30vh;
+}
+
+.vw100 {
+    width: 100vw;
+}
+
+@media screen and (max-width: 767px) {
+    .vh-s50 {
+        height: 50vh;
+    }
+
+    .vh-s30 {
+        height: 30vh;
+    }
+
+    .vw-s50 {
+        width: 50vw;
+    }
+
+    .vw-s40 {
+        width: 40vw;
+    }
+
+    .vw-s30 {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .vh-m50 {
+        height: 50vh;
+    }
+
+    .vh-m30 {
+        height: 30vh;
+    }
+    
+    .vw-m50 {
+        width: 50vw;
+    }
+
+    .vw-m40 {
+        width: 40vw;
+    }
+
+    .vw-m30 {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .vh-l50 {
+        height: 50vh;
+    }
+
+    .vh-l30 {
+        height: 30vh;
+    }
+
+    .vw-l50 {
+        width: 50vw;
+    }
+
+    .vw-l40 {
+        width: 40vw;
+    }
+
+    .vw-l30 {
+        width: 30vw;
+    }
+}
+
+
+
